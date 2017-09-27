@@ -675,5 +675,6 @@
       Components in this page are implemented as full stack (includes the server side).
     </text>
     <text name="DemoUiComponents_Info_Metronic_Link_Text">Check Metronic theme for more UI components</text>
+    <text name="PhoneBook">Phone Book</text>
   </texts>
 </localizationDictionary>

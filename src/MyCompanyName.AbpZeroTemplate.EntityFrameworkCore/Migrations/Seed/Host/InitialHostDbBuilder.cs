@@ -13,6 +13,7 @@ namespace MyCompanyName.AbpZeroTemplate.Migrations.Seed.Host
 
         public void Create()
         {
+            new InitialPeopleCreator(_context).Create();
             new DefaultEditionCreator(_context).Create();
             new DefaultLanguagesCreator(_context).Create();
             new HostRoleAndUserCreator(_context).Create();
